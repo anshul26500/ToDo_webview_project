@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.blur{
+    filter:blur(5px);
+}
+.navbar{
+    height:70px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 10px grey;
+}
+.nav1{
+    padding: 10px;
+    font-size:xx-large;
+    text-transform: uppercase;
+}
+#nav2{
+    color: blue;
+    text-transform: uppercase;
+}
+.circle{
+    top:103px;
+    left:1050px;
+    position:absolute;
+   font-size: 30px;
+   color: black;
+   font-weight: bold;
+   text-decoration: none;
+}
+h3{
+    top:105px;
+    left:1090px;
+    position:absolute;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.container{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: flex-start;
+    margin-left: 140px;
+    gap:20px;
+    
+}
+.box{
+    width:350px;
+    height: 250px;
+    border-radius: 20px;
+    background: linear-gradient(aliceblue,white,skyblue);
+    border: 1px solid grey;
+}
+.box:hover{
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+input[type=checkbox]{
+    margin-top: 30px;
+    margin-left: 20px;
+    width:20px;
+    height: 20px;
+}
+#text{
+   margin-left:15px;
+    text-decoration: line-through;
+    color: grey;
+    font-size: 20px;
+}
+#text2{
+    margin-left:15px;
+    color: black;
+    font-size: 20px;
+}
+#trip{
+    color: blue;
+    padding: 10px 0px 0px 20px;
+    font-weight: bolder;
+    font-size: x-large;
+
+}
+hr{
+   margin-top: 10px;
+}
+.container2{
+    position: relative;
+    top: -450px;
+    left: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self:start;
+    margin-left: 180px;
+}
+.box2{
+    width:350px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.box2:hover{
+    box-shadow: 3px 5px 5px rgba(0,0,0,0.5);
+}
+input[type=text]{
+    margin-top: 30px;
+    margin-left: 20px;
+    width:300px;
+    height: 25px;
+    font-weight: bold;
+    color: black;
+    font-size: large;
+}
+hr{
+    margin-top: 10px;
+ }
+ #Task2{
+   
+    padding: 10px 0px 0px 20px;
+    font-weight: bolder;
+    font-size: x-large;
+ }
+ .button1{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 220px;
+    cursor: pointer;
+    border-radius: 10px;
+ }
+ .circle2{
+    top:125px;
+    left:825px;
+    position:absolute;
+   font-size: 30px;
+   font-weight: bold;
+   color:white;
+   text-decoration: none;
+}
+.box4{
+    margin-left: 40%;
+    margin-top: 18vh;
+    width:350px;
+    height: 200px;
+    border-radius: 20px;
+    background: linear-gradient(aliceblue,white,skyblue);
+    border: 1px solid grey;
+}
+.box4:hover{
+    cursor: pointer;
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.5);
+}
+.nav2{
+    padding: 10px 0px 0px 20px;
+    height: 50px;
+    font-size:xx-large;
+    text-transform: uppercase; 
+}
+#nav3{
+    color: blue;
+    text-transform: uppercase; 
+}
+.navbar1{
+    width: auto;
+    background-color: lightcyan;
+    box-shadow: 5px 5px 10px grey;  
+}
+.Back{
+    top:125px;
+    left:600px;
+    position:absolute;
+    font-size:large;
+}
+a,.Back{
+   text-decoration: none;
+
+}
+#bac{
+    padding:8px;
+    word-spacing: 8px;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+}
+#fa{
+    font-size: 25px;
+}
+#trip4{
+    padding: 10px 0px 0px 20px;
+    font-size: 20px;
+    color: blue;
+    font-weight: bolder;
+    text-align: center;
+}
+#text5{
+    text-decoration-line: line-through;
+    color: gray;
+    font-size: 22px;
+    margin: 0px 0px 0px 10px;
+}
+#text6{
+    font-size: 22px;
+   margin: 0px 0px 0px 10px;
+
+}
+#task10{
+    top:125px;
+    left:860px;
+}
+.con{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self:start;
+    margin-left: 180px;
+    top:-210px;
+    left:433px;
+}
+.con2{
+    padding: 10px 0px 0px 3px;
+    font-size: 20px;
+    width:350px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid black; 
+}
+.con2:hover{
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+h4{
+    position: relative;
+    margin-left: 5px;
+    padding: 6px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.cross{
+    /* position: relative; */
+   margin-left: 310px;
+   margin-top: -159px;
+   font-size: 25px;
+}
+.cross1{
+    margin-top: -155px;
+    margin-left: 310px;
+    font-size: 25px;
+}
+.blur2{
+    filter:blur(5px);
+}
+#close{
+    position: absolute;
+    top: 13px;
+    /* right: 30px; */
+}
+#close1{
+    position: absolute;
+    top: 20px;
+}
